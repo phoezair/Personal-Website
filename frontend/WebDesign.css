@@ -13,16 +13,7 @@ body {
     background-color: rgb(214, 224, 235);
 }
 
-nav {
-    
-}
-
 .upper {
-    /* width: 100%;
-    
-    background: #eceaff;
-    color: #525252; */
-
     background: #1a1a1a;
     width: 100%;
     padding: 15px 2%;
@@ -33,15 +24,8 @@ nav {
 }
 
 nav {
-    /* text-align: right;
-    color: aliceblue;
-    font-size:18px;
-    float: right; */
 
-    
 }
-
-
 
 nav ul {
     width: 100%;
@@ -50,7 +34,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    list-style: none;
+    /* list-style: none; */
     margin: 10px 20px;
 }
 
@@ -60,9 +44,37 @@ nav ul li a {
     
 }
 
+ul {
+    margin-left: 30px;
+}
+
+ul ul {
+    margin-left: 35px;
+}
+
+ul ul ul {
+    margin-left: 40px;
+}
+
 .title {
     text-align: center;
     font-size: 24;
+}
+
+.about {
+    padding: 20px;
+}
+
+.resume {
+    padding: 20px;
+}
+
+.certs {
+    padding: 20px;
+}
+
+.proj {
+    padding: 20px;
 }
 
 #headshot {
@@ -79,8 +91,15 @@ nav ul li a {
 #residence {
     margin: 0px;
     border: 0px;
+    padding-left: 40px;
 }
 
 #pages {
 
+}
+
+#contact {
+    margin: 0px;
+    border: 0px;
+    padding-left: 12px;
 }
