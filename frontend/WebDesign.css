@@ -1,0 +1,34 @@
+
+body {
+    
+}
+
+#navigation{
+    text-align: right;
+    color: maroon;
+    font-size:18px;
+    float: right;
+}
+
+#navigation a{
+    margin-right: 10px;
+}
+
+#headshot {
+    border-radius: 50%;
+    height: 200px;
+}
+
+#homeHeader {
+    margin: 0px;
+    border: 0px;
+}
+
+#residence {
+    margin: 0px;
+    border: 0px;
+}
+
+#pages {
+
+}
