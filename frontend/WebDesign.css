@@ -5,12 +5,9 @@
     box-sizing: border-box;
 }
 
-head {
-    
-}
-
 body {
     background-color: rgb(214, 224, 235);
+
 }
 
 .upper {
@@ -23,9 +20,6 @@ body {
     position: relative;
 }
 
-nav {
-
-}
 
 nav ul {
     width: 100%;
@@ -56,6 +50,20 @@ ul ul ul {
     margin-left: 40px;
 }
 
+h3 {
+    font-size: 20;
+    font-weight: bolder;
+}
+
+h5 {
+    font-size: 16;
+    font-weight: bold;
+}
+
+p {
+    font-size: 12;
+}
+
 .title {
     text-align: center;
     font-size: 24;
@@ -77,9 +85,18 @@ ul ul ul {
     padding: 20px;
 }
 
+
 #headshot {
     border-radius: 50%;
     height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#csm {
+    height: 200px;
+    width: 225px;
 }
 
 #homeHeader {
@@ -91,15 +108,22 @@ ul ul ul {
 #residence {
     margin: 0px;
     border: 0px;
-    padding-left: 40px;
+    text-align: center;
 }
 
-#pages {
-
-}
 
 #contact {
     margin: 0px;
     border: 0px;
-    padding-left: 12px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.download {
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
 }
